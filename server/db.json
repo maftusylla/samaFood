@@ -1,0 +1,286 @@
+{
+  "utilisateurs": [
+    {
+      "id": "1",
+      "nomComplet": "Administrateur",
+      "email": "admin@samafood.sn",
+      "motDePasse": "admin123",
+      "telephone": "771234567",
+      "role": "responsable",
+      "dateInscription": "2024-01-01T00:00:00.000Z",
+      "adresse": "Dakar, Liberté 6"
+    },
+    {
+      "id": "2",
+      "nomComplet": "Client Test",
+      "email": "client@samafood.sn",
+      "motDePasse": "client123",
+      "telephone": "778888888",
+      "role": "client",
+      "dateInscription": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "W7CcPPg6HO0",
+      "nomComplet": "mariama",
+      "email": "mariama@samafood.sn",
+      "telephone": "786546789",
+      "role": "client",
+      "adresse": "Dakar"
+    },
+    {
+      "id": "UW-IBse5Ovk",
+      "nomComplet": "adji sylla",
+      "email": "adji@samafood.sn",
+      "telephone": "784525466",
+      "motDePasse": "adji123",
+      "role": "client",
+      "dateInscription": "2026-06-13T09:50:00.430Z"
+    },
+    {
+      "nomComplet": "rougui sy",
+      "email": "sy@samafood.sn",
+      "telephone": "763097317",
+      "motDePasse": "client123",
+      "role": "client",
+      "dateInscription": "2026-06-15T14:59:19.737Z",
+      "id": "rTh5SFlJtmU"
+    },
+    {
+      "nomComplet": "nafy gaye",
+      "email": "nafy@samafood.sn",
+      "telephone": "777329783",
+      "motDePasse": "client123",
+      "role": "client",
+      "dateInscription": "2026-06-15T15:11:52.752Z",
+      "id": "Fp8vYW8VlOE"
+    }
+  ],
+  "depenses": [
+    {
+      "id": "d1",
+      "date": "2026-06-04",
+      "fournisseur": "Agro-Service Dakar",
+      "categorie": "alimentaire",
+      "montant": 450000,
+      "statut": "paye",
+      "icone": "🥬"
+    }
+  ],
+  "statistiques": {
+    "evolution": {
+      "labels": [
+        "Jan",
+        "Fév",
+        "Mar",
+        "Avr",
+        "Mai",
+        "Juin"
+      ],
+      "revenus": [
+        3200000,
+        3800000,
+        4100000,
+        4350000,
+        4620000,
+        4850000
+      ],
+      "depenses": [
+        1450000,
+        1580000,
+        1720000,
+        1890000,
+        1980000,
+        2120000
+      ]
+    },
+    "repartitionCouts": {
+      "ingredients": 55,
+      "personnel": 25,
+      "fraisFixes": 20
+    },
+    "kpi": {
+      "chiffreAffaires": 4850000,
+      "depensesTotales": 2120000,
+      "margeBrute": 56.3,
+      "beneficeNet": 1425000
+    }
+  },
+  "plats": [
+    {
+      "id": "1",
+      "nom": "Thiéboudienne Royale",
+      "prix": 6500,
+      "categorie": "traditionnel",
+      "image": "images/thieb.jpg",
+      "description": "Riz rouge, poisson frais, légumes",
+      "popularite": 98
+    },
+    {
+      "id": "2",
+      "nom": "Yassa Poulet",
+      "prix": 4500,
+      "categorie": "traditionnel",
+      "image": "images/yassa.jpg",
+      "description": "Poulet grillé, oignons caramélisés",
+      "popularite": 95
+    },
+    {
+      "id": "3",
+      "nom": "Sama Burger XXL",
+      "prix": 5500,
+      "categorie": "fastfood",
+      "image": "images/burgerRoyale.jpg",
+      "description": "Double steak, cheddar, bacon",
+      "popularite": 92
+    },
+    {
+      "id": "4",
+      "nom": "Pizza Royale",
+      "prix": 6500,
+      "categorie": "pizza",
+      "image": "images/pizza2.jpg",
+      "description": "Pepperoni, champignons, olives",
+      "popularite": 88
+    },
+    {
+      "id": "5",
+      "nom": "Mafé",
+      "prix": 5500,
+      "categorie": "traditionnel",
+      "image": "images/mafé.jpg",
+      "description": "Sauce arachide, viande, riz",
+      "popularite": 90
+    },
+    {
+      "id": "6",
+      "nom": "Jus de Bissap",
+      "prix": 500,
+      "categorie": "boissons",
+      "image": "images/jus bissap.jpg",
+      "description": "Frais et naturel",
+      "popularite": 85
+    }
+  ],
+  "commandes": [
+    {
+      "userId": "W7CcPPg6HO0",
+      "date": "2026-06-15T08:48:09.994Z",
+      "status": "en_attente",
+      "total": 1500,
+      "deliveryMode": "livraison",
+      "deliveryFee": 1500,
+      "specialNote": "",
+      "items": [
+        {
+          "platId": 2,
+          "quantite": 2
+        },
+        {
+          "platId": 1,
+          "quantite": 1
+        }
+      ],
+      "id": "cgIy3so5hmg"
+    },
+    {
+      "userId": "W7CcPPg6HO0",
+      "date": "2026-06-15T09:29:52.850Z",
+      "status": "en_attente",
+      "total": 1500,
+      "deliveryMode": "livraison",
+      "deliveryFee": 1500,
+      "specialNote": "",
+      "items": [
+        {
+          "platId": 2,
+          "quantite": 1
+        },
+        {
+          "platId": 1781515440753,
+          "quantite": 1
+        },
+        {
+          "platId": 1781515771177,
+          "quantite": 1
+        }
+      ],
+      "id": "EMNNJ56O-Xs"
+    },
+    {
+      "userId": "W7CcPPg6HO0",
+      "date": "2026-06-15T09:33:26.905Z",
+      "status": "en_attente",
+      "total": 1500,
+      "deliveryMode": "livraison",
+      "deliveryFee": 1500,
+      "specialNote": "",
+      "items": [
+        {
+          "platId": 1781515997772,
+          "quantite": 1
+        }
+      ],
+      "id": "lRbaYYDW0Mw"
+    }
+  ],
+  "favoris": [],
+  "panier": [
+    {
+      "userId": "2",
+      "platId": 1781521124246,
+      "nom": "Riz blanc + Poulet + Yassa",
+      "prix": 4100,
+      "quantite": 1,
+      "id": "qyHBy7NPMGU"
+    },
+    {
+      "userId": "2",
+      "platId": 1781521130827,
+      "nom": "Riz blanc + Poulet + Yassa",
+      "prix": 4100,
+      "quantite": 1,
+      "id": "Cj8WlYSwEJg"
+    },
+    {
+      "userId": "2",
+      "platId": 1,
+      "nom": "Thiéboudienne Royale",
+      "prix": 6500,
+      "quantite": 1,
+      "id": "F4lYj2-NV1Q"
+    },
+    {
+      "userId": "2",
+      "platId": 5,
+      "nom": "Mafé",
+      "prix": 5500,
+      "quantite": 1,
+      "id": "xFWAXTLriZU"
+    },
+    {
+      "userId": "2",
+      "platId": 3,
+      "nom": "Sama Burger XXL",
+      "prix": 5500,
+      "quantite": 2,
+      "id": "F8xJ-vgft-I"
+    },
+    {
+      "userId": "rTh5SFlJtmU",
+      "platId": 2,
+      "nom": "Yassa Poulet",
+      "prix": 4500,
+      "quantite": 1,
+      "id": "9-EXWhNuwU0"
+    },
+    {
+      "userId": "rTh5SFlJtmU",
+      "platId": 6,
+      "nom": "Jus de Bissap",
+      "prix": 500,
+      "quantite": 1,
+      "id": "GfLzoVoVpCg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
