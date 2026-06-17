@@ -2,13 +2,12 @@
 import { getUtilisateurConnecte } from '../services/auth.js';
 
 const routes = {
-  '/': '../scripts/accueil.js',
-  '/connexion': '../scripts/connexion.js',
-  '/inscription': '../scripts/inscription.js',
-  '/dashboard-responsable': '../scripts/dashboardRes.js',
-  '/dashboard-client': '../pages/dashboardClient/index.js'
+  '/': '../pages/accueil/index.js',                  
+  '/connexion': '../pages/connexion/index.js',         
+  '/inscription': '../pages/inscription/index.js',     
+  '/dashboard-responsable': '../pages/dashboardResponsable/index.js',
+  '/dashboard-client': '../pages/dashboardClient/index.js',
 };
-
 const routesProtegees = ['/dashboard-responsable', '/dashboard-client'];
 
 const routesPubliques = ['/', '/connexion', '/inscription'];
